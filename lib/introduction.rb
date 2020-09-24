@@ -9,6 +9,12 @@ end
 
 introduction('Jordan')
 
+def introduction_with_language(name, language)
+  puts "Hi, my name is #{name} and I am leearning to program in #{language}"
+end
+
+introduction('Jordan', 'Ruby')
+
 
 
 
